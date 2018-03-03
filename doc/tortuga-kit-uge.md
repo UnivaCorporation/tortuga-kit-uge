@@ -100,12 +100,12 @@ Export list for qmaster-01:
 #### Tortuga AWS resource adapter
 
 Ensure Tortuga is able to create EC2 instances in your pre-configured [Amazon
-VPC][vpc] before proceeding with the Univa Grid Engine integration. Tortuga
+VPC][] before proceeding with the Univa Grid Engine integration. Tortuga
 EC2-based compute nodes must be able to automatically reach "Installed" state
 after being added with the Tortuga `add-nodes` command.
 
 Other cloud providers have similar concepts of a "virtual network" comparable
-in functionality to [Amazon VPC][vpc]. Consult the cloud provider's
+in functionality to [Amazon VPC][]. Consult the cloud provider's
 documentation for additional information. Tortuga does **not** automatically
 create or configure virtual networks.
 
@@ -114,7 +114,7 @@ create or configure virtual networks.
 Network connectivity must exist between the Tortuga installer, Univa Grid Engine
 qmaster, and any EC2 instances.
 
-This will require properly configured VPN or [Amazon Direct Connect][directconnect],
+This will require properly configured VPN or [Amazon Direct Connect][],
 security group(s), and AWS access tokens.
 
 #### Amazon VPC
@@ -766,5 +766,5 @@ The procedure for upgrading the Univa Grid Engine kit is as follows:
     manual intervention (notably, changing the NFS exported spool directory),
     although with some manual steps it is possible.
 
-[vpc] https://aws.amazon.com/vpc/ "Amazon VPC"
-[directconnect] https://aws.amazon.com/directconnect/ "AWS Direct Connect"
+[Amazon VPC] https://aws.amazon.com/vpc/ "Amazon VPC"
+[Amazon Direct Connect] https://aws.amazon.com/directconnect/ "AWS Direct Connect"
