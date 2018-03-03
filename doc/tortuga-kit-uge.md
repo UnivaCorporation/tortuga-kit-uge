@@ -22,6 +22,15 @@ install-kit kit-uge-8.5.4-0.tar.bz2
 
 ## Types of installations/integrations
 
+Before proceeding with any Univa Grid Engine kit installation, it is strongly
+recommended to become familiar with the basic concepts of Tortuga as well as
+familiarizing one's self with the Tortuga installation process.
+
+See the [Tortuga Installation and Administration
+Guide](https://github.com/UnivaCorporation/tortuga/blob/master/doc/tortuga-6-admin-guide.md)
+for configuration details. The "Quickstart Installation" section details an
+installation of Tortuga and Univa Grid Engine.
+
 ### Cloud-based
 
 A slight variation from the traditional installation with the difference being
