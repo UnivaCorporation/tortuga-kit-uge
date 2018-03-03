@@ -11,7 +11,7 @@ workflows that exist beyond the basic Univa Grid Engine tools.
 ## Downloading Univa Grid Engine trial kit
 
 The Univa Grid Engine 8.5.4 trial kit for Tortuga is available as a free
-download from <http://www.univa.com/resources/univa-navops-launch-trial.php>.
+download from <http://www.univa.com/resources/univa-navops-launch-trial-kits.php>.
 
 The kit is installed on the Tortuga installer using the `install-kit` command
 as follows:
@@ -39,7 +39,7 @@ Grid Engine compute nodes.
 
 This installation type allows a full cloud-based Univa Grid Engine environment
 with no on-premise (local) node requirement. It can be brought up,
-expanded/contracted (compute nodes added/removed), and terminated in on an
+expanded/contracted (compute nodes added/removed), and terminated on an
 on-demand basis or left running indefinitely.
 
 ### On-premise (phsyical nodes/virtual machines)
@@ -107,6 +107,9 @@ Export list for qmaster-01:
 ```
 
 #### Tortuga AWS resource adapter
+
+We describe the AWS integration as example. The other supported cloud adapters
+can be used in analogy.
 
 Ensure Tortuga is able to create EC2 instances in your pre-configured [Amazon
 VPC][] before proceeding with the Univa Grid Engine integration. Tortuga
