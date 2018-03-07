@@ -10,7 +10,7 @@ workflows that exist beyond the basic Univa Grid Engine tools.
 
 ## Downloading Univa Grid Engine trial kit
 
-The Univa Grid Engine 8.5.4 trial kit for Tortuga is available as a free
+The Univa Grid Engine trial kit for Tortuga (at the time of writing this in version 8.5.4) is available as a free
 download from <http://www.univa.com/resources/univa-navops-launch-trial-kits.php>.
 
 The kit is installed on the Tortuga installer using the `install-kit` command
@@ -19,6 +19,9 @@ as follows:
 ```shell
 install-kit kit-uge-8.5.4-0.tar.bz2
 ```
+
+See the following section for an overview and pointers into the Tortuga documentation to proceed with
+installing and using the Univa Grid Engine trial kit.
 
 ## Types of installations/integrations
 
@@ -29,7 +32,9 @@ familiarizing one's self with the Tortuga installation process.
 See the [Tortuga Installation and Administration
 Guide](https://github.com/UnivaCorporation/tortuga/blob/master/doc/tortuga-6-admin-guide.md)
 for configuration details. The "Quickstart Installation" section details an
-installation of Tortuga and Univa Grid Engine.
+installation of Tortuga and Univa Grid Engine. **Follow that Quickstart Installation process** for a first time 
+installation of a Tortuga managed Univa Gridn Engine cluster. Below is a description of the various configuration 
+and installation options available with the Univa Grid Engine kit.
 
 ### Cloud-based
 
