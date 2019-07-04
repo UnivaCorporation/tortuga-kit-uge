@@ -783,5 +783,3 @@ The procedure for upgrading the Univa Grid Engine kit is as follows:
     manual intervention (notably, changing the NFS exported spool directory),
     although with some manual steps it is possible.
 
-[Amazon VPC] https://aws.amazon.com/vpc/ "Amazon VPC"
-[Amazon Direct Connect] https://aws.amazon.com/directconnect/ "AWS Direct Connect"
